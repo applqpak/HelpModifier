@@ -38,7 +38,7 @@
 
         $event->setCancelled();
 
-        if($command[1] === "1") {
+        if($command[1] === "1" or $command[1] === "one") {
 
           $page_one_messages = $this->cfg->get("page_1");
 
