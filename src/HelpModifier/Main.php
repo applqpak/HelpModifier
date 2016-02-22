@@ -160,7 +160,7 @@
 
         } else if($command[1] === "6" or $command[1] === "six") {
 
-         $page_six_messages = $this->cfg->get("page_6");
+          $page_six_messages = $this->cfg->get("page_6");
 
           $player->sendMessage($page_six_messages["message_1"]);
 
