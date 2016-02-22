@@ -157,3 +157,5 @@
           $player->sendMessage($page_five_messages["message_9"]);
 
           $player->sendMessage($page_five_messages["message_10"]);
+
+        } else if($command[1] === "6" of $command[1] === "six") {
