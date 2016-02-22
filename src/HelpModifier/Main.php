@@ -46,6 +46,42 @@
 
           $player->sendMessage($page_one_messages["message_2"]);
 
-          $player->sendMessage($page_one_message["message_3"]);
+          $player->sendMessage($page_one_messages["message_3"]);
 
-          $player->sendMessage($page_one_message["message_4"]);
+          $player->sendMessage($page_one_messages["message_4"]);
+
+          $player->sendMessage($page_one_messages["message_5"]);
+
+          $player->sendMessage($page_one_messages["message_6"]);
+
+          $player->sendMessage($page_one_messages["message_7"]);
+
+          $player->sendMessage($page_one_messages["message_8"]);
+
+          $player->sendMessage($page_one_messages["message_9"]);
+
+          $player->sendMessage($page_one_messages["message_10"]);
+
+        } else if($command[1] === "2" or $command[1] === "two") {
+
+          $page_two_messages = $this->cfg->get("page_2");
+
+          $player->sendMessage($page_two_messages["message_1"]);
+
+          $player->sendMessage($page_two_messages["message_2"]);
+
+          $player->sendMessage($page_two_messages["message_3"]);
+
+          $player->sendMessage($page_two_messages["message_4"]);
+
+          $player->sendMessage($page_two_messages["message_5"]);
+
+          $player->sendMessage($page_two_messages["message_6"]);
+
+          $player->sendMessage($page_two_messages["message_7"]);
+
+          $player->sendMessage($page_two_messages["message_8"]);
+
+          $player->sendMessage($page_two_messages["message_9"]);
+
+          $player->sendMessage($page_two_messages["message_10"]);
