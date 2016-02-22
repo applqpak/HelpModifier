@@ -277,3 +277,17 @@
           $player->sendMessage($page_ten_messages["message_9"]);
 
           $player->sendMessage($page_ten_messages["message_10"]);
+
+        } else {
+
+          $player->sendMessage(TF::RED . "Error: page " . $command[1] . " does not exist.");
+
+        }
+
+      }
+
+    }
+
+  }
+
+?>
