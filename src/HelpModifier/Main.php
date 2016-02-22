@@ -159,3 +159,25 @@
           $player->sendMessage($page_five_messages["message_10"]);
 
         } else if($command[1] === "6" or $command[1] === "six") {
+
+         $page_six_messages = $this->cfg->get("page_6");
+
+          $player->sendMessage($page_six_messages["message_1"]);
+
+          $player->sendMessage($page_six_messages["message_2"]);
+
+          $player->sendMessage($page_six_messages["message_3"]);
+
+          $player->sendMessage($page_six_messages["message_4"]);
+
+          $player->sendMessage($page_six_messages["message_5"]);
+
+          $player->sendMessage($page_six_messages["message_6"]);
+
+          $player->sendMessage($page_six_messages["message_7"]);
+
+          $player->sendMessage($page_six_messages["message_8"]);
+
+          $player->sendMessage($page_six_messages["message_9"]);
+
+          $player->sendMessage($page_six_messages["message_10"]);
