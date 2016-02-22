@@ -254,7 +254,7 @@
 
           $player->sendMessage($page_nine_messages["message_10"]);
 
-        } else if($command[1] === "10" $command[1] === "ten") {
+        } else if($command[1] === "10" or $command[1] === "ten") {
 
           $page_ten_messages = $this->cfg->get("page_10");
 
