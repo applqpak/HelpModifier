@@ -37,3 +37,7 @@
         $event->setCancelled();
 
         if($command[1] === "1") {
+
+          $page_one_messages = $this->cfg->get("page_1");
+
+          $player->sendMessage($page_one_messages["message_1"]);
