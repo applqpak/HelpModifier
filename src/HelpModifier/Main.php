@@ -253,3 +253,27 @@
           $player->sendMessage($page_nine_messages["message_9"]);
 
           $player->sendMessage($page_nine_messages["message_10"]);
+
+        } else if($command[1] === "10" $command[1] === "ten") {
+
+          $page_ten_messages = $this->cfg->get("page_10");
+
+          $player->sendMessage($page_ten_messages["message_1"]);
+
+          $player->sendMessage($page_ten_messages["message_2"]);
+
+          $player->sendMessage($page_ten_messages["message_3"]);
+
+          $player->sendMessage($page_ten_messages["message_4"]);
+
+          $player->sendMessage($page_ten_messages["message_5"]);
+
+          $player->sendMessage($page_ten_messages["message_6"]);
+
+          $player->sendMessage($page_ten_messages["message_7"]);
+
+          $player->sendMessage($page_ten_messages["message_8"]);
+
+          $player->sendMessage($page_ten_messages["message_9"]);
+
+          $player->sendMessage($page_ten_messages["message_10"]);
