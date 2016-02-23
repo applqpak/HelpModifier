@@ -6,7 +6,7 @@
   use pocketmine\event\Listener;
   use pocketmine\utils\TextFormat as TF;
   use pocketmine\utils\Config;
-  use pocketmine\event\player\PlayerCommandPreProcessEvent;
+  use pocketmine\event\player\PlayerCommandPreprocessEvent;
 
   class Main extends PluginBase implements Listener {
 
@@ -26,7 +26,7 @@
 
     }
 
-    public function sendHelp(PlayerCommandPreProcessEvent $event) {
+    public function sendHelp(PlayerCommandPreprocessEvent $event) {
 
       $command = explode(" ", strtolower($event->getMessage()));
 
