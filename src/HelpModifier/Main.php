@@ -34,7 +34,27 @@
 
       if($command[0] === "/help" or $command[0] === "/?") {
 
-        $player->sendMessage(TF::RED . "Usage: /help <page>");
+          $page_one_messages = $this->cfg->get("page_1");
+
+          $player->sendMessage($page_one_messages["message_1"]);
+
+          $player->sendMessage($page_one_messages["message_2"]);
+
+          $player->sendMessage($page_one_messages["message_3"]);
+
+          $player->sendMessage($page_one_messages["message_4"]);
+
+          $player->sendMessage($page_one_messages["message_5"]);
+
+          $player->sendMessage($page_one_messages["message_6"]);
+
+          $player->sendMessage($page_one_messages["message_7"]);
+
+          $player->sendMessage($page_one_messages["message_8"]);
+
+          $player->sendMessage($page_one_messages["message_9"]);
+
+          $player->sendMessage($page_one_messages["message_10"]);
 
         $event->setCancelled();
 
@@ -277,10 +297,6 @@
           $player->sendMessage($page_ten_messages["message_9"]);
 
           $player->sendMessage($page_ten_messages["message_10"]);
-
-        } else {
-
-          $player->sendMessage(TF::RED . "Error: page " . $command[1] . " does not exist.");
 
         }
 
