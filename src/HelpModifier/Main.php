@@ -56,7 +56,7 @@
 
           $player->sendMessage($page_one_messages["message_10"]);
 
-        $event->setCancelled();
+          $event->setCancelled();
 
         if($command[1] === "1" or $command[1] === "one") {
 
