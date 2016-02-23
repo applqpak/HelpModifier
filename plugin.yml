@@ -1,5 +1,7 @@
 name: HelpModifier
 version: 1.0.0
 author: applqpak
-api: [1.0.0]
+api:
+- 1.0.0
+- 2.0.0
 main: HelpModifier\Main
