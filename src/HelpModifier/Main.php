@@ -58,6 +58,8 @@
 
           $event->setCancelled();
 
+        if(isset($command[1])) {
+
         if($command[1] === "1" or $command[1] === "one") {
 
           $page_one_messages = $this->cfg->get("page_1");
@@ -297,6 +299,8 @@
           $player->sendMessage($page_ten_messages["message_9"]);
 
           $player->sendMessage($page_ten_messages["message_10"]);
+
+        }
 
         }
 
