@@ -32,7 +32,7 @@
 
       $player = $event->getPlayer();
 
-      if($command[0] === "/help" or $command[0] === "/?") {
+      if($command[0] === "/help" or $command[0] === "/?" or $command[0] === "/pocketmine:help" or $command[0] === "/pocketmine:?") {
 
           $page_one_messages = $this->cfg->get("page_1");
 
